@@ -1,0 +1,381 @@
+
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(58, 62, 63);
+  /* overflow-x: hidden; */
+}
+/* navbar style  */
+#theNav {
+  background-color: rgb(58, 62, 63);
+  overflow: hidden;
+}
+#theNav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0% 2.3%;
+  text-decoration: none;
+  font-size: 380%;
+  font-family: 'IM Fell English SC';
+justify-content: space-evenly;
+}
+#theNav a:hover {
+  background-color: silver;
+  color: rgb(0, 0, 0);
+}
+#theNav a.active {
+  color: gold;
+}
+
+/* cart style */
+.cartImag {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  border-color: gold;
+  border-style: double;
+  padding-top: 2%;
+}
+
+#cartSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+#cartDiv {
+  width: 30%;
+  height: 350px;
+  background-size: 100%;
+}
+/* home page style */
+#homeJeans {
+  width: 370px;
+  height: 300px;
+  border-radius: 20%;
+  margin-top: 5%;
+  transition: 0.9s;
+}
+
+#homeJeans:hover {
+  box-shadow: rgb(47, 154, 248) 13px 14px 15px;
+}
+#jeansText{
+  color: rgb(255, 255, 255);
+  margin-left: 19%;
+  font-size: 600%;
+  font-family: "Righteous", cursive;
+  text-shadow : 10px 10px #000000;
+}
+
+
+#homeShirts {
+  width: 370px;
+  height: 300px;
+  border-radius: 20%;
+  margin-top: 5%;
+  transition: 0.9s;
+  padding-left: 0%;
+  position: relative;
+  left: 20%;
+}
+#homeShirts:hover {
+  box-shadow: aliceblue 15px 14px 25px;
+}
+#shirtText{
+  color: rgb(255, 255, 255);
+  margin-left: 2%;
+  font-size: 600%;
+  font-family: "Righteous", cursive;
+  text-shadow : 10px 10px #000000;
+}
+
+#homeShoes {
+  width: 370px;
+  height: 300px;
+  border-radius: 20%;
+  margin-top: 0%;
+  transition: 0.9s;
+  margin-top: 5%;
+}
+#homeShoes:hover {
+  box-shadow: rgb(240, 9, 9) 13px 14px 25px;
+}
+#shoesText{
+  color: rgb(255, 255, 255);
+  margin-left: 19%;
+  font-size: 600%;
+  font-family: "Righteous", cursive;
+  text-shadow : 10px 10px #000000;
+}
+#homeSuits {
+  width: 370px;
+  height: 300px;
+  border-radius: 20%;
+  margin-top: 5%;
+  transition: 0.9s;
+  padding-left: 0%;
+  position: relative;
+  left: 20%;
+}
+#homeSuits:hover {
+  box-shadow: aliceblue 13px 14px 25px;
+}
+#suitsText{
+  color: rgb(255, 255, 255);
+  margin-left: 2%;
+  font-size: 600%;
+  font-family: "Righteous", cursive;
+  text-shadow : 10px 10px #000000;
+}
+
+#theHeadLine {
+  color: rgb(240, 240, 240);
+  margin-left: 19%;
+  font-size: 550%;
+  font-family: "Rye", cursive;
+  text-shadow : 10px 10px #000000;
+  
+}
+
+#homeClothes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.clothesHeadLine {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;  
+  border-radius: 10%;
+  margin-top: 5%;
+}
+
+
+
+footer {
+  bottom: 0%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  margin-top: 15%;
+  text-align: center;
+}
+footer .socialMediaContact > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px gold;
+  margin: 0 8px;
+  color: gold;
+  opacity: 0.75;
+}
+
+footer .socialMediaContact > a:hover {
+  opacity: 2;
+}
+.footerText {
+  font-size: 200%;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+
+@media only screen and (min-width: 695px) and (max-device-width: 1025px) {
+
+  #theNav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0% 2.3%;
+    text-decoration: none;
+    font-size: 310%;
+    font-family: 'IM Fell English SC';
+  justify-content: space-evenly;
+  }
+}
+@media only screen and (min-device-width: 521px) and (max-device-width: 769px) {
+  #theNav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0% 2.3%;
+    text-decoration: none;
+    font-size: 232%;
+    font-family: 'IM Fell English SC';
+  justify-content: space-evenly;}
+
+  #theHeadLine {
+    color: rgb(240, 240, 240);
+    margin-left: 19%;
+    font-size: 380%;
+    font-family: "Rye", cursive;
+    text-shadow : 10px 10px #000000;
+    
+  }
+  #homeJeans {
+    width: 330px;
+    height: 300px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+  }
+  #jeansText{
+    color: rgb(255, 255, 255);
+    margin-left: 19%;
+    font-size: 405%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeShirts {
+    width: 330px;
+    height: 300px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+    padding-left: 0%;
+    position: relative;
+    left: 20%;
+  }
+  #shirtText{
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    font-size: 405%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeShoes {
+    width: 330px;
+    height: 300px;
+    border-radius: 20%;
+    margin-top: 0%;
+    transition: 0.9s;
+    margin-top: 5%;
+  }
+  #shoesText{
+    color: rgb(255, 255, 255);
+    margin-left: 19%;
+    font-size: 405%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeSuits {
+    width: 330px;
+    height: 300px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+    padding-left: 0%;
+    position: relative;
+    left: 20%;
+  }
+  #suitsText{
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    font-size: 405%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  }
+    
+    
+
+@media only screen and (min-device-width: 424px) and (max-device-width: 523px) {
+  #theNav a {
+   
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0% 2.3%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'IM Fell English SC';
+  justify-content: space-between;}
+
+  #theHeadLine {
+    color: rgb(240, 240, 240);
+    margin-left: 19%;
+    font-size: 195%;
+    font-family: "Rye", cursive;
+    text-shadow : 10px 10px #000000;
+    
+  }
+  #homeJeans {
+    width: 166px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+  }
+  #jeansText{
+    color: rgb(255, 255, 255);
+    margin-left: 19%;
+    font-size: 240%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeShirts {
+    width: 183px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+    padding-left: 0%;
+    position: relative;
+    left: 20%;
+  }
+  #shirtText{
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    font-size: 300%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeShoes {
+    width: 148px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 0%;
+    transition: 0.9s;
+    margin-top: 5%;
+  }
+  #shoesText{
+    color: rgb(255, 255, 255);
+    margin-left: 19%;
+    font-size: 250%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+  #homeSuits {
+    width: 198px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 5%;
+    transition: 0.9s;
+    padding-left: 0%;
+    position: relative;
+    left: 20%;
+  }
+  #suitsText{
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    font-size: 300%;
+    font-family: "Righteous", cursive;
+    text-shadow : 10px 10px #000000;
+  }
+}

@@ -1,0 +1,482 @@
+
+
+#theClothsHeadLine {
+    color: rgb(0, 0, 0);
+    margin-left: 35%;
+    font-size: 500%;
+    font-family: 'Inknut Antiqua', serif;
+    text-shadow: honeydew 3px 3px;
+    
+  }
+
+    /* jeans style */
+#jeansImag {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  border-color: gold;
+  border-style: double;
+  padding-top: 2%;
+}
+
+#jeansSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+#jeansDiv {
+  width: 30%;
+  height: 350px;
+  background-size: 100%;
+}
+.jeansInfo {
+  width: 10%;
+  position: absolute;
+  background: rgb(58, 62, 63);
+  color: white;
+  margin-top: 20%;
+
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+#jeansDiv:hover .jeansInfo {
+  width: 30%;
+  height: 16%;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+/* shirts style  */
+.shirtsImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border-color: gold;
+    border-style: double;
+    padding-top: 2%;
+  }
+  
+  #shirtsSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  #shirtsDiv {
+    width: 30%;
+    height: 350px;
+    background-size: 100%;
+  }
+  .shirtsInfo {
+    width: 10%;
+    position: absolute;
+    background: rgb(58, 62, 63);
+    color: white;
+    margin-top: 20%;
+  
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  #shirtsDiv:hover .shirtsInfo {
+    width: 30%;
+    height: 16%;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.9;
+  }
+  .addButton {
+    background: none;
+    font-size: 200%;
+    font-weight: 900;
+    position: absolute;
+    margin-left: 27%;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+  }
+  .addButton:hover {
+    font-size: 250%;
+  }
+  .removeButton {
+    background: none;
+    font-size: 200%;
+    font-weight: 900;
+    position: absolute;
+    margin-left: 1%;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+  }
+  .removeButton:hover {
+    font-size: 250%;
+  }
+  
+  /* shoes style */
+  
+  .shoesImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border-color: gold;
+    border-style: double;
+    padding-top: 2%;
+  }
+  
+  #shoesSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  #shoesDiv {
+    width: 30%;
+    height: 350px;
+    background-size: 100%;
+  }
+  
+  .shoesInfo {
+    width: 10%;
+    position: absolute;
+    background: rgb(58, 62, 63);
+    color: white;
+    margin-top: 20%;
+  
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  #shoesDiv:hover .shoesInfo {
+    width: 30%;
+    height: 16%;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.9;
+  }
+  /* suits style */
+  .suitsImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border-color: gold;
+    border-style: double;
+    padding-top: 2%;
+  }
+  
+  #suitsSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  #suitsDiv {
+    width: 30%;
+    height: 350px;
+    background-size: 100%;
+  }
+  .suitsInfo {
+    width: 10%;
+    position: absolute;
+    background: rgb(58, 62, 63);
+    color: white;
+    margin-top: 20%;
+  
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+   
+  }
+  #suitsDiv:hover .suitsInfo {
+    width: 30%;
+    height: 16%;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.9;
+  }
+
+  @media only screen and (min-device-width: 521px) and (max-device-width: 769px) {
+
+    #theClothsHeadLine {
+        color: rgb(0, 0, 0);
+        margin-left: 35%;
+        font-size: 400%;
+        font-family: 'Inknut Antiqua', serif;
+        text-shadow: honeydew 3px 3px;
+        
+      }
+      .addButton {
+        background: none;
+        font-size: 170%;
+        font-weight: 800;
+        position: absolute;
+        margin-left: 35%;
+        color: rgb(0, 0, 0);
+        margin-top: 2%;
+      }
+      .addButton:hover {
+        font-size: 200%;
+      }
+      .removeButton {
+        background: none;
+        font-size: 200%;
+        font-weight: 900;
+        position: absolute;
+        margin-left: 1%;
+        color: rgb(0, 0, 0);
+        margin-top: 2%;
+      }
+      .removeButton:hover {
+        font-size: 250%;
+      }
+ 
+      #jeansDiv {
+        width: 40%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .jeansInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 31%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #jeansDiv:hover .jeansInfo {
+        width: 40%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+        border-radius: 10%;
+      }
+      #shirtsDiv {
+        width: 40%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .shirtsInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 31%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #shirtsDiv:hover .shirtsInfo {
+        width: 40%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+      #shoesDiv {
+        width: 40%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .shoesInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 31%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #shoesDiv:hover .shoesInfo {
+        width: 40%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+      #suitsDiv {
+        width: 40%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .suitsInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 31%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #suitsDiv:hover .suitsInfo {
+        width: 40%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 521px) { 
+    #theClothsHeadLine {
+        color: rgb(0, 0, 0);
+        margin-left: 35%;
+        font-size: 200%;
+        font-family: 'Inknut Antiqua', serif;
+        text-shadow: honeydew 3px 3px;
+        
+      }
+      .addButton {
+        background: none;
+        font-size: 150%;
+        font-weight: 700;
+        position: absolute;
+        margin-left: 81%;
+        color: rgb(0, 0, 0);
+        margin-top: 5%;
+      }
+      .addButton:hover {
+        font-size: 200%;
+      }
+      .removeButton {
+        background: none;
+        font-size: 200%;
+        font-weight: 900;
+        position: absolute;
+        margin-left: 1%;
+        color: rgb(0, 0, 0);
+        margin-top: 2%;
+      }
+      .removeButton:hover {
+        font-size: 250%;
+      }
+ 
+      #jeansDiv {
+        width: 90%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .jeansInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 57%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #jeansDiv:hover .jeansInfo {
+        width: 87%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+        border-radius: 10%;
+      }
+      #shirtsDiv {
+        width: 90%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .shirtsInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 57%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #shirtsDiv:hover .shirtsInfo {
+        width: 90%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+      #shoesDiv {
+        width: 90%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .shoesInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 57%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #shoesDiv:hover .shoesInfo {
+        width: 87%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+      #suitsDiv {
+        width: 90%;
+        height: 350px;
+        background-size: 100%;
+      }
+      .suitsInfo {
+        width: 10%;
+        position: absolute;
+        background: rgb(58, 62, 63);
+        color: white;
+        margin-top: 57%;
+      
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+      #suitsDiv:hover .suitsInfo {
+        width: 87%;
+        height: 22%;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.9;
+      }
+   }
+    
+
+      
+  

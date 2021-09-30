@@ -1,0 +1,99 @@
+#theClothsHeadLine {
+    color: rgb(0, 0, 0);
+    margin-left: 35%;
+    font-size: 500%;
+    font-family: 'Inknut Antiqua', serif;
+    text-shadow: honeydew 3px 3px;
+    
+  }
+#theCart{
+    width: 50%;
+    margin-left: 30%;
+    color: #fff;
+    background-color: rgb(168, 173, 173)  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+  }
+  #imgeSize{
+    width: 100%;
+  height: 250px;
+  position: relative;
+  }
+  img .btnCart{
+    margin-bottom: 5px ;
+    position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  }
+
+  #chooseSize option{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(148, 155, 155);
+    color: rgb(0, 0, 0);
+    
+  }
+  #chooseSize{
+    background-color: rgb(138, 139, 137);
+    color: rgb(0, 0, 0);
+  }
+  #theCheckText{
+    background-color: rgb(168, 173, 173) ;
+width: 50%;
+margin-left: 30%;
+  }
+  @media only screen and (min-width: 695px) and (max-device-width: 1025px) {
+    #theCart{
+        margin-left: 23%;
+        color: #fff;
+        background-color: rgb(168, 173, 173)  ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      }
+      #theClothsHeadLine {
+        color: rgb(0, 0, 0);
+        margin-left: 35%;
+        font-size: 400%;
+        font-family: 'Inknut Antiqua', serif;
+        text-shadow: honeydew 3px 3px;
+        
+      }
+  }
+  @media only screen and (min-device-width: 521px) and (max-device-width: 769px){
+      #theCart{
+    margin-left: 10%;
+    color: #fff;
+    background-color: rgb(168, 173, 173)  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    width: 80%;
+  }
+  #theClothsHeadLine {
+    color: rgb(0, 0, 0);
+    margin-left: 35%;
+    font-size: 300%;
+    font-family: 'Inknut Antiqua', serif;
+    text-shadow: honeydew 3px 3px;
+    
+  }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 521px)  {
+    #theClothsHeadLine {
+        color: rgb(0, 0, 0);
+        margin-left: 35%;
+        font-size: 200%;
+        font-family: 'Inknut Antiqua', serif;
+        text-shadow: honeydew 3px 3px;
+        
+      }
+       #theCart{
+        width: 100%;
+    margin-left: 1%;
+    color: #fff;
+    background-color: rgb(168, 173, 173)  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+  }
+  }
+
+  
+ 

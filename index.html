@@ -6,30 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Rye&family=Tourney:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Ultra&display=swap" rel="stylesheet">
+    <link
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-        <nav>
-           <div id="theNav">
-        <a class="active" href="index.html">Home</a>
-        <a href="jeans.html">jeans</a>
-        <a href="T-shirts.html">T-shirts</a>
-        <a href="shoes.html">shoes</a>
-        <a href="suits.html">suits</a>
-      </div> 
-        </nav>
-      
-      
+      <nav>
+        <div id="theNav">
+          <a class="active" href="index.html">Home</a>
+          <a href="./html/jeans.html">jeans</a>
+          <a href="./html/T-shirts.html">T-shirts</a>
+          <a href="./html/shoes.html">shoes</a>
+          <a href="./html/suits.html">suits</a>
+          <a href="./html/cart.html">cart</a>
+          
+        </div>
+      </nav>
     </header>
     <main>
-      <img id="jeansImg" src="https://i.pinimg.com/originals/d2/cf/e4/d2cfe4347e7eb0e25f1b989668117e61.jpg" alt=""> 
+      <h1 id="theHeadLine">Match Fashion</h1>
+
+      <articale id="homeClothes">
+        <section class="clothesHeadLine">
+          <a href="./html/jeans.html"><img
+            id="homeJeans" 
+            src="https://m.media-amazon.com/images/I/91Pka1f3yKS._UX679_.jpg"
+            alt=""
+           
+          /></a>
+          
+          <h2 id="jeansText">our jeans</h2>
+        </section>
+
+        <section class="clothesHeadLine">
+          <h2 id="shirtText">our shirts</h2>
+          <a href="./html/T-shirts.html">
+          <img
+            id="homeShirts"
+            src="https://aaaclothes.ru/images/Clothing/Shirts/Versace-Shirts/Versace-ShortsSleeveds-Shirts-For-Men/Versace-Shirts-for-Versace-ShortsSleeveds-Shirts-For-Men-99907969_365x365.jpg"
+            alt=""
+          /></a>
+          
+        </section>
+        <section class="clothesHeadLine">
+         <a href="./html/shoes.html"> <img
+            id="homeShoes"
+            src="https://media.architecturaldigest.com/photos/57a11cbeb6c434ab487bc26b/2:1/w_1077,h_538,c_limit/nikes-senior-designer-explains-what-went-into-new-air-jordan-01.png"
+            alt=""
+          /></a>
+          <h2 id="shoesText">our shoes</h2>
+        </section>
+        <section class="clothesHeadLine">
+          <h2 id="suitsText">our suits</h2>
+         <a href="./html/suits.html"><img
+            id="homeSuits"
+            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRncv03h99RiY9W5dMcaMfxJSH2jI83Jm1ZP9XYgQKokNU9r-0z0gxuhUJYoAhcZ3kTYlMHKzj9cmjR7WyeLDnsCiuPoFBdPLRty-ngIEmMqvXQRQ7tHk1V&usqp=CAE"
+            alt=""
+          /></a> 
+          
+        </section>
+      </articale>
     </main>
-    <footer></footer>
-    <script src="./main.js"></script>
-    <script src="./orders.js"></script>
+   
+<footer >
+<h3 class = "footerText">contact us</h3>
+    <div class="socialMediaContact"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
+            </div>
+    </footer>
+     
+    
+    <script src="./java script/main.js"></script>
+    <!-- <script src="orders.js"></script> -->
   </body>
 </html>
