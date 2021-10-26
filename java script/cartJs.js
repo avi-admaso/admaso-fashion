@@ -49,7 +49,7 @@ var cartObj = [
   },
 ];
 
-document.getElementById("theCart");
+let theCart = document.getElementById("theCart");
 for (var i = 0; i < cartObj.length; i++) {
   if (i < cartObj.length) {
     theCart.innerHTML += `
@@ -82,7 +82,6 @@ for (var i = 0; i < cartObj.length; i++) {
       
       </tr>
     </tr>`;
-    
   }
 }
 function theCheck() {
@@ -91,10 +90,8 @@ function theCheck() {
     sum += cartObj[i].price;
   }
   return sum;
-  
-}theCheckText.innerHTML =  ` TOTAL CHECK - ${theCheck()}$`;
-
-
+}
+theCheckText.innerHTML = ` TOTAL CHECK - ${theCheck()}$`;
 
 function removeItem(id) {
   for (let i = 0; i < cartObj.length; i++) {
@@ -104,8 +101,7 @@ function removeItem(id) {
       console.log(cartObj);
       document.getElementById(id).innerHTML = `
       <p> this item has been removed</p>`;
-      theCheckText.innerHTML =  ` TOTAL CHECK - ${theCheck()}$`;
-      
+      theCheckText.innerHTML = ` TOTAL CHECK - ${theCheck()}$`;
     }
   }
 }
