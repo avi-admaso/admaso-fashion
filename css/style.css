@@ -1,5 +1,3 @@
-
-
 * {
   border: 0;
   padding: 0;
@@ -19,8 +17,8 @@
   padding: 0% 2.3%;
   text-decoration: none;
   font-size: 380%;
-  font-family: 'IM Fell English SC';
-justify-content: space-evenly;
+  font-family: "IM Fell English SC";
+  justify-content: space-evenly;
 }
 #theNav a:hover {
   background-color: silver;
@@ -66,14 +64,13 @@ justify-content: space-evenly;
 #homeJeans:hover {
   box-shadow: rgb(47, 154, 248) 13px 14px 15px;
 }
-#jeansText{
+#jeansText {
   color: rgb(255, 255, 255);
   margin-left: 19%;
   font-size: 600%;
   font-family: "Righteous", cursive;
-  text-shadow : 10px 10px #000000;
+  text-shadow: 10px 10px #000000;
 }
-
 
 #homeShirts {
   width: 370px;
@@ -88,12 +85,12 @@ justify-content: space-evenly;
 #homeShirts:hover {
   box-shadow: aliceblue 15px 14px 25px;
 }
-#shirtText{
+#shirtText {
   color: rgb(255, 255, 255);
   margin-left: 2%;
   font-size: 600%;
   font-family: "Righteous", cursive;
-  text-shadow : 10px 10px #000000;
+  text-shadow: 10px 10px #000000;
 }
 
 #homeShoes {
@@ -107,12 +104,12 @@ justify-content: space-evenly;
 #homeShoes:hover {
   box-shadow: rgb(240, 9, 9) 13px 14px 25px;
 }
-#shoesText{
+#shoesText {
   color: rgb(255, 255, 255);
   margin-left: 19%;
   font-size: 600%;
   font-family: "Righteous", cursive;
-  text-shadow : 10px 10px #000000;
+  text-shadow: 10px 10px #000000;
 }
 #homeSuits {
   width: 370px;
@@ -127,12 +124,12 @@ justify-content: space-evenly;
 #homeSuits:hover {
   box-shadow: aliceblue 13px 14px 25px;
 }
-#suitsText{
+#suitsText {
   color: rgb(255, 255, 255);
   margin-left: 2%;
   font-size: 600%;
   font-family: "Righteous", cursive;
-  text-shadow : 10px 10px #000000;
+  text-shadow: 10px 10px #000000;
 }
 
 #theHeadLine {
@@ -140,8 +137,7 @@ justify-content: space-evenly;
   margin-left: 19%;
   font-size: 550%;
   font-family: "Rye", cursive;
-  text-shadow : 10px 10px #000000;
-  
+  text-shadow: 10px 10px #000000;
 }
 
 #homeClothes {
@@ -154,12 +150,10 @@ justify-content: space-evenly;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;  
+  flex-direction: row;
   border-radius: 10%;
   margin-top: 5%;
 }
-
-
 
 footer {
   bottom: 0%;
@@ -193,11 +187,7 @@ footer .socialMediaContact > a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 
-
-
-
 @media only screen and (min-width: 695px) and (max-device-width: 1025px) {
-
   #theNav a {
     float: left;
     color: rgb(255, 255, 255);
@@ -205,8 +195,8 @@ footer .socialMediaContact > a:hover {
     padding: 0% 2.3%;
     text-decoration: none;
     font-size: 310%;
-    font-family: 'IM Fell English SC';
-  justify-content: space-evenly;
+    font-family: "IM Fell English SC";
+    justify-content: space-evenly;
   }
 }
 @media only screen and (min-device-width: 521px) and (max-device-width: 769px) {
@@ -217,16 +207,16 @@ footer .socialMediaContact > a:hover {
     padding: 0% 2.3%;
     text-decoration: none;
     font-size: 232%;
-    font-family: 'IM Fell English SC';
-  justify-content: space-evenly;}
+    font-family: "IM Fell English SC";
+    justify-content: space-evenly;
+  }
 
   #theHeadLine {
     color: rgb(240, 240, 240);
     margin-left: 19%;
     font-size: 380%;
     font-family: "Rye", cursive;
-    text-shadow : 10px 10px #000000;
-    
+    text-shadow: 10px 10px #000000;
   }
   #homeJeans {
     width: 330px;
@@ -235,12 +225,12 @@ footer .socialMediaContact > a:hover {
     margin-top: 5%;
     transition: 0.9s;
   }
-  #jeansText{
+  #jeansText {
     color: rgb(255, 255, 255);
     margin-left: 19%;
     font-size: 405%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeShirts {
     width: 330px;
@@ -252,12 +242,12 @@ footer .socialMediaContact > a:hover {
     position: relative;
     left: 20%;
   }
-  #shirtText{
+  #shirtText {
     color: rgb(255, 255, 255);
     margin-left: 2%;
     font-size: 405%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeShoes {
     width: 330px;
@@ -267,12 +257,12 @@ footer .socialMediaContact > a:hover {
     transition: 0.9s;
     margin-top: 5%;
   }
-  #shoesText{
+  #shoesText {
     color: rgb(255, 255, 255);
     margin-left: 19%;
     font-size: 405%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeSuits {
     width: 330px;
@@ -284,36 +274,33 @@ footer .socialMediaContact > a:hover {
     position: relative;
     left: 20%;
   }
-  #suitsText{
+  #suitsText {
     color: rgb(255, 255, 255);
     margin-left: 2%;
     font-size: 405%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
-  }
-    
-    
+}
 
 @media only screen and (min-device-width: 424px) and (max-device-width: 523px) {
   #theNav a {
-   
     float: left;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 0% 2.3%;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'IM Fell English SC';
-  justify-content: space-between;}
+    font-family: "IM Fell English SC";
+    justify-content: space-between;
+  }
 
   #theHeadLine {
     color: rgb(240, 240, 240);
     margin-left: 19%;
     font-size: 195%;
     font-family: "Rye", cursive;
-    text-shadow : 10px 10px #000000;
-    
+    text-shadow: 10px 10px #000000;
   }
   #homeJeans {
     width: 166px;
@@ -322,12 +309,12 @@ footer .socialMediaContact > a:hover {
     margin-top: 5%;
     transition: 0.9s;
   }
-  #jeansText{
+  #jeansText {
     color: rgb(255, 255, 255);
     margin-left: 19%;
     font-size: 240%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeShirts {
     width: 183px;
@@ -339,12 +326,12 @@ footer .socialMediaContact > a:hover {
     position: relative;
     left: 20%;
   }
-  #shirtText{
+  #shirtText {
     color: rgb(255, 255, 255);
     margin-left: 2%;
     font-size: 300%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeShoes {
     width: 148px;
@@ -354,12 +341,12 @@ footer .socialMediaContact > a:hover {
     transition: 0.9s;
     margin-top: 5%;
   }
-  #shoesText{
+  #shoesText {
     color: rgb(255, 255, 255);
     margin-left: 19%;
     font-size: 250%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
   #homeSuits {
     width: 198px;
@@ -371,11 +358,33 @@ footer .socialMediaContact > a:hover {
     position: relative;
     left: 20%;
   }
-  #suitsText{
+  #suitsText {
     color: rgb(255, 255, 255);
     margin-left: 2%;
     font-size: 300%;
     font-family: "Righteous", cursive;
-    text-shadow : 10px 10px #000000;
+    text-shadow: 10px 10px #000000;
   }
+}
+/* #theLogo{margin-left: 93%;
+  margin-top: 7%;
+  font-size: 20px;
+  color: red;
+  position: fixed;
+  top: 0;} */
+#theLogo{
+  margin-left: 94%;
+  margin-top: 7%;
+  font-size: 50px;
+  color: red;
+  position: fixed;
+  top: 0;
+}
+#cartNumber{
+  margin-left: 97%;
+  margin-top: 6%;
+  font-size: 20px;
+  color: red;
+  position: fixed;
+  top: 0;
 }

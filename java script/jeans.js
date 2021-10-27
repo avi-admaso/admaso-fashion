@@ -7,15 +7,19 @@ for (var i = 0; i < clothes.length; i++) {
     }</p>
     <button onclick = "addItem(add(${i + 1}))" type="button" id = "${
       clothes[i].id
-    }"class="addButton" title="add to cart!">+</button>
+    }"class="addButton" title="add to cart!" >+</button>
   
     <img onclick="theNextImg(event)" data-secondImg="${
       clothes[i].photo[1]
     }" id="jeansImag" src="${clothes[i].photo[0]}" alt=""></div>`;
   }
 }
+
 removeButton = document.getElementsByClassName("removeButton");
 addButton = document.getElementsByClassName("addButton");
+let cartNum = 4
+cartNumber = document.getElementById("cartNumber");
+cartNumber.innerHTML += cartNum
 
 function theNextImg(e) {
   e.stopPropagation();

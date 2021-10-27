@@ -14,6 +14,9 @@ for (var i = 0; i < clothes.length; i++) {
     </div>`;
   }
 }
+let cartNum = 4
+cartNumber = document.getElementById("cartNumber");
+cartNumber.innerHTML += cartNum
 function add(id) {
   for (let i = 0; i < clothes.length; i++) {
     if (id == clothes[i].id) {

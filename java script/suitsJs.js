@@ -14,7 +14,9 @@ for (var i = 0; i < clothes.length; i++) {
       }
     }
   }
-  
+  let cartNum = 4
+cartNumber = document.getElementById("cartNumber");
+cartNumber.innerHTML += cartNum
   function addItem(i) {
     cartObj.push(i);
     console.log(cartObj);

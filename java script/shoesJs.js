@@ -14,7 +14,9 @@ function add(id) {
     }
   }
 }
-
+let cartNum = 4
+cartNumber = document.getElementById("cartNumber");
+cartNumber.innerHTML += cartNum
 function addItem(i) {
   cartObj.push(i);
   console.log(cartObj);
